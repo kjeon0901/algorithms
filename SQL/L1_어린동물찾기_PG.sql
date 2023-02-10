@@ -35,7 +35,7 @@ FROM ANIMAL_INS
 WHERE INTAKE_CONDITION <> "Aged"
 
 /*
-틀린 답안 - is not으로 판별하려니 버전에 맞지 않다고 해서 <>로 바꾸어줌. 
+틀린 답안 - is not으로 판별하려니 버전에 맞지 않다고 해서 <>로 바꾸어줌. 값이 같은지 비교 : <=>, <>, NULL인지 비교 : is, is not
 SELECT ANIMAL_ID, NAME
 FROM ANIMAL_INS
 WHERE INTAKE_CONDITION is not "Aged"
